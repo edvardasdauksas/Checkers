@@ -1,0 +1,51 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+/*board things*/
+div[id|="row"] {
+  width:450px;
+  height:50px;
+}
+
+div[id|="column"] {
+  display:inline-block;
+  margin-right: -4px;
+  width:50px;
+  height:50px;
+}
+
+/*board colors*/
+.white {
+  background-color: #FFF8DC;
+}
+
+.brown {
+  background-color: brown;
+}
+
+/*checkers*/
+.checker {
+  display: none;
+}
+
+.black .checker, .white .checker {
+  display: block;
+}
+
+.black .checker {
+  background: #000;
+}
+
+.white .checker {
+  background: #fff;
+}
+
+.checker {
+  margin: 2px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+}
+
